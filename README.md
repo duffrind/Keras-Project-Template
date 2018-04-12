@@ -39,6 +39,12 @@ python main.py -c configs/simple_mnist_config.json
 tensorboard --logdir=experiments/simple_mnist/logs
 ```
 
+OR
+
+```shell
+python -m tensorboard.main --logdir=experiments/simple_mnist/logs
+```
+
 <div align="center">
 
 <img align="center" width="600" src="https://github.com/Ahmkel/Keras-Project-Template/blob/master/figures/Tensorboard_demo.PNG?raw=true">
